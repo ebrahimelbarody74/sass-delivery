@@ -1,0 +1,23 @@
+/*========CONTACT======*/
+
+.contact{
+    &__container{
+        padding-bottom: 3rem;
+        p{
+            text-align: center;
+        }
+    }
+    &__content{
+        row-gap: .75rem;
+        li{
+            font-size: var(--small-font-size);
+            font-weight: var(--font-semi-bold);
+            color: var(--title-color);
+            span{
+                font-weight: initial;
+                color: var(--text-color);
+            }
+        }
+    }
+
+}

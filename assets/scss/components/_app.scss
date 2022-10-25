@@ -1,0 +1,24 @@
+/*=======APP=========*/
+
+.app{
+    &__container{
+        gap: 2.5rem;
+    }
+    &__data{
+        display: grid;
+        row-gap: 1rem;
+        text-align: center;
+    }
+    p{
+        margin-bottom: var(--mb-0-5);
+    }
+    &__button{
+        display: grid;
+        grid-template-columns: repeat(2, max-content);
+        justify-content: center;
+        gap: 0.5rem;
+        @media screen and (max-width:370px) {
+            grid-template-columns:max-content;
+        }
+    }
+}

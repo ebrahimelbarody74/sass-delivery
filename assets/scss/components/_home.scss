@@ -1,0 +1,14 @@
+/*=========HOME==============*/
+.home{
+    &__container{
+        row-gap: var(--header-height);
+    }
+    &_title{
+        font-size: var(--biggest-font-size);
+        font-weight: var(--font-bold);
+        margin-bottom: var(--mb-0-75);
+    }
+    p{
+        margin-bottom: var(--mb-2);
+    }
+}

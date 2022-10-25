@@ -1,0 +1,32 @@
+/*====SCROOLUP====*/
+.scrollup{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding:.2rem .5rem;
+    background-color: var(--first-color);
+    border-radius: 5px;
+    font-size: 1.25rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    transition: .4s;
+    &:hover{
+        background-color: var(--first-color-alt);
+    }
+}
+
+// scroll bar
+
+::-webkit-scrollbar{
+    background-color: var(--scroll-bar-color);
+    border-radius: .5rem;
+    width: .6rem;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--scroll-thumb-color);
+    border-radius: .5rem;
+    // width: .6rem;
+}
